@@ -2,7 +2,7 @@ theme: jekyll-theme-cayman
 
 defaults:
   - scope:
-      path: "docs/screenshots"
+      path: "screenshots"
     values:
       image: true
       
