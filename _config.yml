@@ -1,1 +1,10 @@
 theme: jekyll-theme-cayman
+
+defaults:
+  - scope:
+      path: "docs/screenshots"
+    values:
+      image: true
+      
+title: Caddisfly Screenshots
+description: View app screenshots
