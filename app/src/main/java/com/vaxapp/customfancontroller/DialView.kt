@@ -81,7 +81,7 @@ class DialView @JvmOverloads constructor(
 
     override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
-        
+
         paint.color = when (fanSpeed) {
             FanSpeed.OFF -> Color.GRAY
             FanSpeed.LOW -> fanSpeedLowColor
